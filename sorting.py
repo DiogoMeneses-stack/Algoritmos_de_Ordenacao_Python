@@ -1,8 +1,7 @@
-#quick sort
 from random import randrange
 import random
 
-
+#quick sort
 def quicksort(lista, inicio=0, fim=None): #funcao
     if fim is None: #se fim é igual a null
         fim = len(lista)-1
